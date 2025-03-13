@@ -16,16 +16,7 @@ public class Switch extends Knop {
 		doeKnopActie();
 	}
 	
-	public void zetAan() {
-		isAan = true;
-	}
-	
-	public void zetUit() {
-		isAan = false;
-	}
-	
-	
-	//@Override
+	@Override
 	public void tekenKnop() {
 		tekenBasis();
 		tekenSchuif();

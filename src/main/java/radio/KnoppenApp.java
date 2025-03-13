@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class KnoppenApp extends PApplet {
 	
 	public static void main(String[] args) {
-		PApplet.main(new String[] {"main.java.doelwit.KnoppenApp"});
+		PApplet.main(new String[] {"main.java.radio.KnoppenApp"});
 	}
 	
 	private ArrayList<Knop> knoppen = new ArrayList<>();

@@ -13,7 +13,7 @@ public class Asiel
 
         Hond hond3 = new Hond("Canine", 4, "Pluto");
         Hond hond4 = new Hond("Canine", 4, "Goofy");
-
+        
         hond3.adem();
         dier1.adem();
         zoogdier2.adem();

@@ -12,7 +12,18 @@ public class Dier
 
     public void adem()
     {
-        System.out.println("adem in/adem uit");
+        if (this instanceof Zoogdier)
+        {
+            ((Hond) this).zoog();
+        } else
+        {
+            System.out.println("adem in/adem uit");
+        }
+    }
+
+    private void slapen()
+    {
+        System.out.println("slapen");
     }
 
     public String toString()

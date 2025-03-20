@@ -12,7 +12,10 @@ public class Asiel
         Zoogdier zoogdier3 = new Hond("Canine", 3, "Brutus");
 
         Hond hond3 = new Hond("Canine", 4, "Pluto");
+        Hond hond4 = new Hond("Canine", 4, "Goofy");
 
-        //casts:
+        hond3.adem();
+        dier1.adem();
+        zoogdier2.adem();
     }
 }

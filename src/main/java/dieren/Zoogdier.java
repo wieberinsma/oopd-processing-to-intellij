@@ -11,6 +11,12 @@ public class Zoogdier extends Dier
         this.draagTijd = draagTijd;
     }
 
+    @Override
+    public void adem()
+    {
+        super.adem();
+    }
+
     public void zoog()
     {
         System.out.println("zoog");

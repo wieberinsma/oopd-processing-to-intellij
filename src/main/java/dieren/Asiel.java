@@ -14,5 +14,6 @@ public class Asiel
         Hond hond3 = new Hond("Canine", 4, "Pluto");
 
         //casts:
+         Zoogdier dier4 = (Zoogdier) dier1;
     }
 }
